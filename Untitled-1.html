@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas Habachi</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #4a4d4a;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #11cc00;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-title h3 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .main-title p {
+            margin: 0;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        .header-image {
+            height: 80px;
+            border-radius: 50%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        section {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #11cc00;
+        }
+
+        .hobby-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .hobby-item {
+            background-color: #11cc00;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #11cc00;
+            color: white;
+        }
+
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+        }
+
+        label {
+            margin-top: 10px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #11cc00;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #11cc00;
+        }
+
+        #error-message {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main-title">
+            <h3>Anas Habachi</h3>
+            <p>OMISSE</p>
+        </div>
+    </header>
+
+    <section>
+        <h2>A Propos De Moi :</h2>
+        <p>
+            Je m'appelle Anas Habachi et je suis originaire de Khouribga. À 22 ans, je poursuis mes études à l'EMSI en filière 3IIR, où j'ai l'opportunité d'explorer ma passion pour la technologie et l'ingénierie. Avant cela, j'ai obtenu un DEUG en physique-chimie, une formation qui m'a permis de développer un solide esprit analytique et une compréhension approfondie des sciences. En dehors de mes études, je suis passionné de football, un sport qui me permet de me défouler et de partager des moments inoubliables avec mes amis. Mon intérêt pour l'art ne se limite pas à une seule forme ; j'apprécie tout ce qui est créatif et esthétique, qu'il s'agisse de theatre, de photographie ou de design. Par ailleurs, je suis un grand fan de rap marocain et de hip-hop, des genres musicaux qui résonnent profondément avec moi et qui m'inspirent au quotidien. La musique est une partie essentielle de ma vie, car elle m'accompagne dans mes études et mes moments de détente, créant ainsi une atmosphère stimulante et motivante.
+        </p>
+    </section>
+    
+    </section>
+
+    <section>
+        <h2>Hobbies :</h2>
+        <div class="hobby-list">
+            <div class="hobby-item">Football</div>
+            <div class="hobby-item">La science</div>
+            <div class="hobby-item">Supporter OCK</div>
+            <div class="hobby-item">Découverte de nouveaux lieux</div>
+            <div class="hobby-item">Programmation</div>
+        </div>
+        <h2>Objectifs :</h2>
+        <ol>
+            <li>Maîtriser le langage C++</li>
+            <li>Apprendre et maîtriser SQL</li>
+            <li>Développer des compétences solides en développement web</li>
+            <li>Developper des outils numeriques pour la recherche scientifique</li>
+            <li>Utiliser la programmation pour innover dans le domaine scientifique</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Table d'amis :</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Âge</th>
+                    <th>Ville</th>
+                    <th>Profil</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Khamliche</td>
+                    <td>Zakaria</td>
+                    <td>20</td>
+                    <td>Casablanca</td>
+                    <td><a href="https://www.instagram.com/zak.kh.2/" target="_blank">Voir profil</a></td>
+                </tr>
+                <tr>
+                    <td>Saifeddine</td>
+                    <td>Mohamed</td>
+                    <td>19</td>
+                    <td>Casablanca</td>
+                    <td><a href="https://www.instagram.com/simo.saifeddine/" target="_blank">Voir profil</a></td>
+                </tr>
+                <tr>
+                    <td>Habbaz</td>
+                    <td>Adnane</td>
+                    <td>21</td>
+                    <td>Casablanca</td>
+                    <td><a href="https://www.instagram.com/4dnane_9/" target="_blank">Voir profil</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Formulaire De Contact</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="nom">Votre Nom</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="prenom">Votre Prénom</label>
+            <input type="text" id="prenom" name="prenom" required>
+            
+            <label for="email">Votre Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Votre Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+            <p id="error-message"></p>
+        </form>
+    </section>
+
+    <script>
+        function validateForm() {
+            const nom = document.getElementById("nom").value;
+            const prenom = document.getElementById("prenom").value;
+            const email = document.getElementById("email").value;
+            const errorMessage = document.getElementById("error-message");
+            errorMessage.textContent = ""; 
+
+            if (nom.trim() === "") {
+                errorMessage.textContent = "Le champ Nom ne doit pas être vide.";
+                return false; 
+            }
+
+            if (prenom.trim() === "") {
+                errorMessage.textContent = "Le champ Prénom ne doit pas être vide.";
+                return false; 
+            }
+
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
+            if (!emailRegex.test(email)) {
+                errorMessage.textContent = "Veuillez entrer une adresse email valide.";
+                return false; 
+            }
+
+            alert("Formulaire soumis avec succès !");
+            return true;
+        }
+    </script>
+</body>
+</html>
